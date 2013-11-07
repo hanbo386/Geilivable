@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'E-Publishing' target in the 'E-Publishing' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "SelfDelegate.h"
+    #import "EselfDelegate.h" 
+    #import "E-PublishingDef.h"
+    #import "DLog.h"
+
+#endif
